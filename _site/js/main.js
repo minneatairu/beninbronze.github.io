@@ -10,7 +10,7 @@ function createEbayComponent() {
   let hasMore = true;
   let totalEntries = 0;
   let showInfoPopup = false;
-  let activeTab = 0;
+  let activeTab = 0; 
   let hoveredImage = null;
   let hoveredImageIndex = null;
 
