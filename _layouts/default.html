@@ -10,7 +10,19 @@
 <body>
     <!-- Add HTML elements for your UI components -->
     <div id="app">
-<p>ffffffff</p>>    </div>
+        <model-viewer  class="lazy-load"  id="model1"  src="https://uploads-ssl.webflow.com/653ab5a69e0276865693d972/654bbf4cddc6521e20698004_flat.glb.txt"  ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 70deg auto" interaction-prompt="none" auto-rotate camera-orbit="982.9deg 53.34deg 0.6353m"  reveal="manual" disable-zoom disable-tap field-of-view="14deg">
+            <button class="Hotspot" slot="hotspot-1" data-position="-0.09680383440441848m -0.05200798438351196m -0.01202737211120418m" data-normal="0.039688496983617434m 0.9986129671307021m -0.03459718320321148m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">Makerbot Replicator 2</div>
+            </button><button class="Hotspot" slot="hotspot-2" data-position="-0.08724508363597977m -0.008882894815007536m 0.038101138743661056m" data-normal="-0.906437809142721m 0.3213507473874544m -0.27405144646593055m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">15% Infill</div>
+            </button><button class="Hotspot" slot="hotspot-3" data-position="-0.07198449716120131m 0.04815096324387891m 0.0038243283529144564m" data-normal="-0.9513546076023736m 0.3069518199534909m -0.026551663243076166m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">10 Walls</div>
+            </button><button class="Hotspot" slot="hotspot-4" data-position="-0.07096215656940708m 0.04990107895742524m 0.04052025500717754m" data-normal="-0.7929575736631839m 0.6092590588857787m -0.004656773111500535m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">0.15mm</div>
+            </button>
+                  <div  class="load-button" data-target="#model1" >VIEW 3D SCAN</div>
+        
+        </model-viewer>   </div>
 
     <!-- Include your JavaScript file -->
     <script src="main.js"></script>
